@@ -7,5 +7,5 @@ CLI utilities program for working with HSAirPO CPE200 SMS
 - List all received sms
 
 ```shell
-cpe200sms list --password admin
+cpe200-sms-utils list --password admin
 ```
