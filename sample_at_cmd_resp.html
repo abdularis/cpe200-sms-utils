@@ -1,0 +1,64 @@
+<form class="form-horizontal" role="form" method="post" name="cbi" action="/cgi-bin/luci/admin/network/gcom/atcmd?detail=&#38;iface=4g" enctype="multipart/form-data">
+    <div>
+        <input type="hidden" name="token" value="f116107c915d5b925a513fb63989e67d" />
+        <input type="hidden" name="timeclock" value="" />
+        <input type="hidden" name="cbi.submit" value="1" />
+        <input type="password" class="sr-only">
+    </div>
+
+
+    <div>
+
+        <br />
+
+
+
+
+
+        <div>
+            <div class="form-group" id="cbi-atcmd-1-command"><label class="col-sm-4 control-label" for="cbid.atcmd.1.command" style="white-space:nowrap;">Command</label>
+                <div class="col-sm-5">
+                    <input type="text"class="form-control  required" name="cbid.atcmd.1.command" id="cbid.atcmd.1.command" value="at+cmgl=all"  />	</div>
+            </div>
+
+
+
+
+            <div class="form-group" id="cbi-atcmd-1-refresh"><label class="col-sm-4 control-label" style="white-space:nowrap;"></label>
+                <div class="col-sm-5">
+
+
+                    <button class="btn btn-primary btn-block" type="submit" onclick='' name="cbid.atcmd.1.refresh" id="cbid.atcmd.1.refresh" value="AT Command" data-action="refresh"><i class="fa fa-play"></i>&nbsp;&nbsp;AT Command</button>
+                    <button class="btn hidden btn-primary btn-block" type="button" disabled=true><i class="fa fa-refresh fa-spin"></i>&nbsp;&nbsp;AT Command</button>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group" id="cbi-atcmd-1-_custom"><div class="col-sm-12">
+
+	<textarea class="form-control"   style="resize: none" data-update="change" name="cbid.atcmd.1._custom" id="cbid.atcmd.1._custom" rows="10" readonly="true">at+cmgl=all
+
++CMGL: 0,&#34;REC READ&#34;,&#34;002B0036003200380031003200320031003400380034003800330031&#34;,,&#34;23/04/01,07:08:10+28&#34;
+0047006F006F
+
+OK
+</textarea>
+            </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <script type="text/javascript">
+            $("[data-toggle='popover']").popover();
+            cbi_d_update();
+        </script>
+    </div>
+</form>
